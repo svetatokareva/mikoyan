@@ -4027,46 +4027,38 @@ body {
 .cid-rB4kOiHkei .section-text DIV {
   text-align: left;
 }
-.cid-rB4nOuzXll {
+.cid-rBfSFR4AJ3 {
   padding-top: 15px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
-.cid-rB4nOuzXll .mbr-text,
-.cid-rB4nOuzXll blockquote {
+.cid-rBfSFR4AJ3 .mbr-text,
+.cid-rBfSFR4AJ3 blockquote {
   color: #767676;
 }
-.cid-rB4nOuzXll .mbr-text P {
+.cid-rBfSFR4AJ3 .mbr-text P {
   text-align: right;
 }
-.cid-rB4k1EZvWd {
-  padding-top: 0px;
-  padding-bottom: 0px;
+.cid-rBfPrrpupv {
+  padding-top: 30px;
+  padding-bottom: 90px;
   background-color: #ffffff;
 }
-.cid-rB4k1EZvWd .mbr-slider .carousel-control {
+.cid-rBfPrrpupv .mbr-slider .carousel-control {
   background: #1b1b1b;
 }
-.cid-rB4k1EZvWd .mbr-slider .carousel-control-prev {
+.cid-rBfPrrpupv .mbr-slider .carousel-control-prev {
   left: 0;
   margin-left: 2.5rem;
 }
-.cid-rB4k1EZvWd .mbr-slider .carousel-control-next {
+.cid-rBfPrrpupv .mbr-slider .carousel-control-next {
   right: 0;
   margin-right: 2.5rem;
 }
-.cid-rB4k1EZvWd .mbr-slider .modal-body .close {
+.cid-rBfPrrpupv .mbr-slider .modal-body .close {
   background: #1b1b1b;
 }
-.cid-rB4k1EZvWd .row > .row {
-  display: block;
-}
-.cid-rB4k1EZvWd .mbr-gallery-item {
-  width: 100%;
-  height: 25vw;
-  object-fit: cover;
-}
-.cid-rB4k1EZvWd .mbr-gallery-item > div::before {
+.cid-rBfPrrpupv .mbr-gallery-item > div::before {
   content: '';
   position: absolute;
   left: 0;
@@ -4079,16 +4071,13 @@ body {
   transition: 0.2s opacity ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
 }
-.cid-rB4k1EZvWd .mbr-gallery-item > div {
-  position: relative;
-}
-.cid-rB4k1EZvWd .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+.cid-rBfPrrpupv .mbr-gallery-item > div:hover .mbr-gallery-title::before {
   background: transparent !important;
 }
-.cid-rB4k1EZvWd .mbr-gallery-item > div:hover:before {
-  opacity: 0.5 !important;
+.cid-rBfPrrpupv .mbr-gallery-item > div:hover:before {
+  opacity: 0.7 !important;
 }
-.cid-rB4k1EZvWd .mbr-gallery-title {
+.cid-rBfPrrpupv .mbr-gallery-title {
   font-size: .9em;
   position: absolute;
   display: block;
@@ -4098,7 +4087,7 @@ body {
   color: #fff;
   z-index: 2;
 }
-.cid-rB4k1EZvWd .mbr-gallery-title:before {
+.cid-rBfPrrpupv .mbr-gallery-title:before {
   content: " ";
   width: 100%;
   height: 100%;
@@ -4107,7 +4096,7 @@ body {
   z-index: -1;
   position: absolute;
   background: #554346 !important;
-  opacity: 0.5;
+  opacity: 0.7;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;

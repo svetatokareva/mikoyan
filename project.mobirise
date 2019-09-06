@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "page1.html",
+    "currentPage": "page7.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -76,7 +76,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 35,
+    "uniqCompNum": 37,
     "versionPublish": "4.10.8",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/favicon.ico",
@@ -3124,7 +3124,7 @@
             }
           },
           "_name": "testimonials2",
-          "_customHTML": "<section class=\"testimonials2\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"130\">\n\n      <fieldset type=\"background\" name=\"bg\" parallax>\n          <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n          <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n          <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n      <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n      <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters --> \n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure pr-lg-5\" mbr-style=\"{'width':'50%'}\">\n              <img src=\"@PROJECT_PATH@/assets/images/b3677589dbcc17e14b0454b54502483a-1-376x651.jpeg\" alt title>\n            </div>\n            <div class=\"media-content px-3 align-self-center mbr-white py-2\">\n                    <p class=\"mbr-text testimonial-text mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".testimonial-text\"><b>СЕРГЕЕВ <br>Сергей Михайлович</b>\n<br>(Ростовцев - Слепнёв, \n<br>дон Корнели Гуардия Лопес)<br></p>\n                    <p class=\"mbr-author-name pt-4 mb-2 mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-author-name\"><span style=\"font-weight: normal;\">&nbsp;1897 - 1978</span></p>\n                    <p class=\"mbr-author-desc mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-desc\"></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"testimonials2\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"130\">\n\n      <fieldset type=\"background\" name=\"bg\" parallax>\n          <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n          <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n          <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n      <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n      <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters --> \n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure pr-lg-5\" mbr-style=\"{'width':'50%'}\">\n              <img src=\"@PROJECT_PATH@/assets/images/-1943-img805-restored-660x1038.jpg\" alt title>\n            </div>\n            <div class=\"media-content px-3 align-self-center mbr-white py-2\">\n                    <p class=\"mbr-text testimonial-text mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".testimonial-text\"><b>СЕРГЕЕВ <br>Сергей Михайлович</b>\n<br></p>\n                    <p class=\"mbr-author-name pt-4 mb-2 mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-author-name\"><span style=\"font-weight: normal;\">&nbsp;1901 (1897) - 1979</span></p>\n                    <p class=\"mbr-author-desc mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-desc\"></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rB4fUEnoqV",
           "_anchor": "testimonials2-x",
           "_PHPplaceholders": [],
@@ -3164,7 +3164,7 @@
             }
           },
           "_name": "content9",
-          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>&nbsp; &nbsp;Происходил из семьи потомственных военных: и его отец, и его дед, и прадед -  служили России. Отец, полковник царской армии, Ростовцев-Слепнёв Михаил Сергеевич, закончил Академию Генерального штаба,  участвовал в 3 войнах: в Балканской, Японской и Первой Мировой.\n<div>\n</div><div>&nbsp; &nbsp;Сергей Михайлович Сергеев учавствовал в войне в Испании в 1937 - 1939 годах под именем  Дон Корнели Гуардия Лопес в качестве начальника штаба дивизионных миноносцев Испанской Республики. Затем он участвовал в  Великой Отечественной войне с  1941 года. Капитан 1 ранга, кадровый военный морской офицер, Сергеев С.М.  совершил беспримерное и опасное кругосветное плавание на крейсере-ледоколе \"А.Микоян\", вывел корабль из Черного моря и доставил его к берегам Дальнего Востока.\n</div><div>\n</div><div>&nbsp; &nbsp;С сентября 1942 года был назначен Старшим Уполномоченным Постоянной Комиссии ВМФ по приёмке новых военных кораблей. 14 августа 1942 года был назначен командиром боевого корабля Тихоокеанского флота. С сентября 1942 года работал Старшим Уполномоченным Постоянной приемной Комиссии ВМФ по приёмке новых военных кораблей, затем служил в составе Амурской военной флотилии, был начальником инспекции 3-го отдела Управления боевой подготовки Главного морского штаба.Участвовал в советско-японской войне с августа по сентябрь 1945 года.После войны служил на Северном флоте командиром - капитаном по приёмке военных кораблей. Вышел в отставку в звании капитана 1-го ранга.\n<span style=\"font-size: 1.4rem;\">​</span></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>&nbsp; &nbsp;Сергей Михайлович Сергеев (Ростовцев) происходил из семьи потомственных военных: и его отец, и его дед, и прадед -  служили России. \n<div>&nbsp; &nbsp;Отец, Ростовцев Михаил (1866 – 1943), кадровый офицер, полковник, артиллерист, закончил Академию Генерального штаба. Как боевой офицер прошёл три войны: Балканскую, Японскую и Империалистическую (Германскую), - имел Георгиевское оружие, кресты, ордена. \n</div><div>&nbsp; &nbsp;Маленький Серёжа с детства бредил морем, мечтал стать моряком. Он рассказывал, что, когда мальчишкой держал игрушечный кораблик, руки его дрожали и сердце билось от восторга. \n</div><div>&nbsp; &nbsp;С. М. Сергеев родился в Петербурге в 1901 году (угол Невского и Большой Морской улицы) – по официальной версии и изменённым документам -  в 1897 году.\n</div><div>&nbsp; &nbsp;В 1913 году успешно сдал экзамены по программе реального училища (4 класса) и поступил в Мореходное училище Дальнего плавания (Санкт-Петербург), успел до революции окончить 3 курса кадетских младших классов.\n</div><div>&nbsp; &nbsp;Для поступления в морское училище Дальнего плавания требовался морской стаж, и в 1912 году Серёжа, ему было 11 лет,  (Сергеев С.М.) плавал юнгой на судне «Тула» Доброфлота («Добровольческий флот»), выполняя обязанности матроса 2 класса. Корабль вышел «из Петербурга в Ревель и проследовал во Владивосток с заходом в Европейские, Африканские, Индийские, Китайские и Японские порты с возвращением в Чёрное море» (Сведения из Автобиографии Сергеева С.М.). Это было его первое «кругосветное» плавание. \n</div><div>В дальнейшем каждое лето до 1916 года Сергеев С.М. проходил практику на кораблях Балтийского флота с заходом в разные зарубежные порты (Швеция, Норвегия, Германия).\n</div><div>&nbsp; &nbsp;В 1916 году плавал на корабле Балтийского флота «Елизавета» рулевым, а после призыва в действующую армию служил на крейсере «Россия».\n</div><div>&nbsp; &nbsp;1918-1922 год – участник Гражданской войны.\n</div><div>&nbsp; &nbsp;В 1924 году окончил Академию Фрунзе.\n</div><div>&nbsp; &nbsp;В 1929 году, в качестве командира минного заградителя «Сильный» участвовал в высадке десанта во время конфликта на КВЖД.\n</div><div>&nbsp; &nbsp;Сергеев С.М. был награжден Василием Блюхером почетным революционным оружием – «наган»\n</div><div>&nbsp; &nbsp;Во время Гражданской войны в Испании 1937-1939 годы Дон Корнели Гуардия Лопес, он же военный моряк — доброволец Сергеев Сергей Михайлович – выполнял свой интернациональный долг в качестве начальника штаба дивизиона миноносцев Испанской республики, командовал флотилией эскадренных миноносцев, сражался с фашистами. Двумя боевыми орденами и медалью отметила Родина его заслуги в сражениях за далекую Испанию. Был у него и орден – памятный знак Испанской Республики.\n</div><div>\n</div><div>С марта 1939 года до 1 июля 1941 года командовал эскадренным миноносцем «Быстрый» в Севастополе.\n</div><div>\n</div><div>С июля 1941 года командовал только что рожденным на стапелях Николаева новым мощным ледоколом «А. Микоян». \n</div><div>&nbsp; &nbsp;Капитан второго ранга Сергеев С.М. превратил его в крейсер, вооружил, скомплектовал команду и сражался под Одессой и Севастополем, а затем получил важное правительственное задание вновь превратить крейсер в мирный ледокол, разоружить его и привести его из Чёрного моря в Бухту Провидения (Анадырский пролив Берингово море). \n</div><div>&nbsp;У командира Сергеева С.М имелся приказ – взорвать и затопить судно в случае безвыходной ситуации. И об этом приказе знал весь экипаж. Это был потенциальный «Варяг».\n</div><div>&nbsp; &nbsp;Начинается беспримерная история кругосветного плавания крейсера-ледокола «А. Микоян» …\n</div><div>&nbsp; &nbsp;В советском Военно-Морском флоте это было единственное кругосветное плавание (кроме атомных подводных лодок), и было оно совершенно во время войны в 1941-1942 гг. линейным ледоколом «Микоян» \n</div><div>9 августа 1942 года ледокол «Микоян» целым и невредимым, не потеряв никого из экипажа (165 человек) пришёл в Бухту Проведения. Правительственное задание было выполнено. До 1958 года этот поход имел гриф «секретно». \n</div><div>\n</div><div>&nbsp; &nbsp;14 августа 1942 года   С. М. Сергеев был отозван с ледокола и отбыл сначала в Москву, а затем был вновь отправлен на Тихоокеанский флот, где принял боевой корабль. \n</div><div>С сентября 1942 года работал Старшим Уполномоченным Постоянной приемной Комиссии ВМФ по приёмке новых военных кораблей, затем служил в составе Амурской военной флотилии, был начальником инспекции 3-го отдела Управления боевой подготовки Главного морского штаба. Участвовал в советско-японской войне с августа по сентябрь 1945 года.\n</div><div>&nbsp; &nbsp;Сергеев Сергей Михайлович получил звание капитана 1 ранга, орден «Красное Знамя» и «Орден Ленина».\n</div><div>\n</div><div>После войны служил на Северном флоте командиром - капитаном по приёмке военных кораблей. \n</div><div>Вышел в отставку в 1957 году в звании капитана 1-го ранга и капитана Дальнего Плавания, «с правом ношения военной формы одежды».\n</div><div>&nbsp; &nbsp;Ушёл из жизни 1 мая 1979 года.</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
           "_cid": "rB4kOiHkei",
           "_anchor": "content9-11",
           "_protectedParams": [],
@@ -3186,9 +3186,11 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b>информация предоставлена внучкой Еленой Калло\n</b></p></div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rB4nOuzXll",
-          "_anchor": "content1-12",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b>информация предоставлена внучкой Сергея Сергеева, Еленой Калло\n</b></p></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-10",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rBfSFR4AJ3",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -3214,14 +3216,6 @@
             ".mbr-slider .modal-body .close": {
               "background": "#1b1b1b"
             },
-            ".row > .row": {
-              "display": "block"
-            },
-            ".mbr-gallery-item": {
-              "width": "100%",
-              "height": "25vw",
-              "object-fit": "cover"
-            },
             ".mbr-gallery-item > div::before": {
               "content": "''",
               "position": "absolute",
@@ -3237,15 +3231,12 @@
                 "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
               }
             },
-            ".mbr-gallery-item > div": {
-              "position": "relative",
-              "&:hover": {
-                ".mbr-gallery-title::before": {
-                  "background": "transparent !important"
-                },
-                "&:before": {
-                  "opacity": "@overlayOpacity !important"
-                }
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
               }
             },
             ".mbr-gallery-title": {
@@ -3275,26 +3266,29 @@
               }
             }
           },
-          "_name": "gallery4",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-count=\"1\" mbr-gallery-first-count=\"4\" mbr-gallery-second-count=\"1\" mbr-gallery-third-count=\"1\" mbr-gallery-fourth-count=\"1\"></div>\n    </div>\n\n</section>",
-          "_anchor": "gallery4-z",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "rB4k1EZvWd",
+          "_name": "gallery2",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\"></div>\n    </div>\n\n</section>",
+          "_cid": "rBfPrrpupv",
           "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
             "gallery"
           ],
           "_global": false,
           "_once": false,
           "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
             "gallery": [
               {
-                "tags": "Awesome",
+                "tags": "Animated",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/da0a58575ca9161bcea787a3ea6f39ad-800x1148.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/da0a58575ca9161bcea787a3ea6f39ad-800x1148-800x1148.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-001-403x652.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/001-403x652-403x652.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -3302,12 +3296,77 @@
                 "active": false
               },
               {
-                "tags": "Responsive",
+                "tags": "Animated",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/b3677589dbcc17e14b0454b54502483a-376x651.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/b3677589dbcc17e14b0454b54502483a-376x651-376x651.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1924-img730hdf-1430x2053.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1924-img730hdf-1430x2053-800x1149.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/-1938-001-643x760.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1938-001-643x760-643x760.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/-1943-img805-restored-690x1085.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1943-img805-restored-690x1085-690x1085.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/1943-img731erwt-1091x1526.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1943-img731erwt-1091x1526-800x1119.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/1961-img696-1244x1839.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1961-img696-1244x1839-800x1183.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/1952-img730ghdsh634-1048x1402.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1952-img730ghdsh634-1048x1402-800x1070.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -3315,25 +3374,12 @@
                 "active": true
               },
               {
-                "tags": "Creative",
+                "tags": "Animated",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/98ec6bb3f892e6b6f5b8cc750abd8ebe-800x1182.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/98ec6bb3f892e6b6f5b8cc750abd8ebe-800x1182-800x1182.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/76a2ee160b06ef0c3960b50e5aa23eb3-800x1230-800x1230.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/76a2ee160b06ef0c3960b50e5aa23eb3-800x1230-800x1230-800x1230.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-1954-img698-1905x2788.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1954-img698-1905x2788-800x1171.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -3341,7 +3387,8 @@
                 "active": false
               }
             ]
-          }
+          },
+          "_anchor": "gallery2-z"
         }
       ]
     },
