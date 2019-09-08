@@ -1382,7 +1382,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/4-ycmw3565-levels-780x10405.jpg",
+                "image": "@PROJECT_PATH@/assets/images/4-ycmw3565-levels-780x10407.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/4-ycmw3565-levels-780x1040-780x1040.jpg",
                 "alt": "",
                 "title": "",
@@ -1465,7 +1465,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Второй механик Донаусов (слева) и машинисты Ройзин, Николаенко, Крулин, Ляхов в машинном отделении \"Микояна\". 1942 год. Фото из архива Донаусова.",
+                "caption": "Второй механик Донаусов (слева) и машинисты Ройзин, Николаенко, Крулин, Ляхов в машинном отделении \"Микояна\". 1942 год (возможно, фото сделано уже после кругосветки и расформирования экипажа, в 1943 году). Фото из архива Донаусова.",
                 "active": false
               },
               {
@@ -1603,7 +1603,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/sergeev-10-cropped-1932x12876.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sergeev-10-cropped-1932x12878.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/sergeev-10-cropped-1932x1287-800x533.jpg",
                 "alt": "",
                 "title": "",
