@@ -68,7 +68,7 @@
   /* mikoyan meeting */
   #gallery2-1d .mbr-gallery-item img {
   width: 100%;
-  height: 25vw; // my addition
+  height: 15vw; // my addition
   opacity: 1;
   -webkit-transition: .2s opacity ease-in-out;
   transition: .2s opacity ease-in-out;
