@@ -5502,7 +5502,7 @@ body {
 }
 .cid-rD3gjR8q3W {
   padding-top: 0px;
-  padding-bottom: 45px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 .cid-rD3gjR8q3W .mbr-section-subtitle {
@@ -5577,6 +5577,9 @@ body {
   }
 }
 .cid-rD3gjR8q3W .head-item {
+  text-align: left;
+}
+.cid-rD3gjR8q3W .body-item {
   text-align: left;
 }
 .cid-rAYrzwE4qk {
