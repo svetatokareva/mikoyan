@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "page1.html",
+    "currentPage": "page8.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1421,7 +1421,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/4-ycmw3565-levels-780x10402.jpg",
+                "image": "@PROJECT_PATH@/assets/images/4-ycmw3565-levels-780x10404.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/4-ycmw3565-levels-780x1040-780x1040.jpg",
                 "alt": "",
                 "title": "",
@@ -1642,7 +1642,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/sergeev-10-cropped-1932x12873.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sergeev-10-cropped-1932x12875.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/sergeev-10-cropped-1932x1287-800x533.jpg",
                 "alt": "",
                 "title": "",
@@ -6467,7 +6467,7 @@
             }
           },
           "_name": "content9",
-          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>&nbsp; &nbsp;Родился в Орловской Губернии в семье безземельного крестьянина. Рано ушел из дома, уехал к Черному морю и до революции работал в гостиницах приморских городов. Участвовал в гражданской войне на стороне крсных.  После граждвнской, служил матросом, затем окончил Одесский Морской Техникум и стал работником торогового флота.<br><br> \n<div>\n</div><div>&nbsp; &nbsp;На \"Микоян\" прибыл в Батуми специально для помощи прохождения Эгейского моря, острова и проливы которого он которое прекрасно знал.  В сложных местах вставал к штурвалу. Сошел с корабля в Хайфе. За выполнение ответсвенных заданий в годы войны, награжден орденами и медалями.</div><br><div>\n</div><div>\n</div><div>&nbsp; &nbsp;После войны продолжил работу на морском транспорте - был начальником морской инспекции пароходства \"Совтанкер\", капитаном-наставником моринспекции черноморского пароходства, плавал капитаном на судах.</div><br><div>\n</div><div>\n</div><div>&nbsp; &nbsp; В 1988 году, более чем через 20 лет после смерти Бойко, его именем был назван нефтерудовоз Новороссийского Морского Пароходства\n</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>&nbsp; &nbsp;БОЕВ Иван Арсентьевич родился в 1893 году в Орловской Губернии в семье безземельного крестьянина. Мальчиком Иван ушел из родительского дома, уехал к Черному морю и до революции работал в гостиницах приморских городов. Во время Гражданской войны Боев И.А. воевал на стороне красных. А после Гражданской войны служил матросом на кораблях Черноморского флота. Затем Боев И.А. окончил Одесский Морской Техникум и стал работником торгового флота.\n<br><br><div>&nbsp; &nbsp;На ледокол \"Микоян\" Боев Иван Арсентьевич прибыл в Батуми специально для помощи прохождения ледоколом Эгейского моря, острова и проливы которого он прекрасно знал ещё до войны. В сложных местах Боев И.А. сам вставал к штурвалу. В Хайфе сошел с корабля и вернулся в Батуми. За выполнение ответственных заданий в годы Великой Отечественной войны Боев И.А. был награжден орденами и медалями.\n</div><div>\n</div><div>&nbsp; &nbsp;После войны Боев И.А. продолжил работу на морском транспорте - был начальником морской инспекции пароходства \"Совтанкер\", капитаном-наставником морской инспекции черноморского пароходства, а также плавал капитаном на различных судах.\n</div><div>Умер в 1963 году.\n</div><div>\n</div><div>&nbsp; &nbsp; В 1988 году, более чем через 20 лет после смерти, его именем был назван нефтегрузовоз Новороссийского Морского Пароходства.\n</div><div><br></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
           "_anchor": "content9-11",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
