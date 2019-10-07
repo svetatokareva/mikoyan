@@ -24758,34 +24758,26 @@ body {
 .cid-rBTYzXBd0t .mbr-text P {
   text-align: right;
 }
-.cid-rDZGo6Lpaj {
+.cid-rEb1PFUJ6r {
   padding-top: 0px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
-.cid-rDZGo6Lpaj .mbr-slider .carousel-control {
+.cid-rEb1PFUJ6r .mbr-slider .carousel-control {
   background: #1b1b1b;
 }
-.cid-rDZGo6Lpaj .mbr-slider .carousel-control-prev {
+.cid-rEb1PFUJ6r .mbr-slider .carousel-control-prev {
   left: 0;
   margin-left: 2.5rem;
 }
-.cid-rDZGo6Lpaj .mbr-slider .carousel-control-next {
+.cid-rEb1PFUJ6r .mbr-slider .carousel-control-next {
   right: 0;
   margin-right: 2.5rem;
 }
-.cid-rDZGo6Lpaj .mbr-slider .modal-body .close {
+.cid-rEb1PFUJ6r .mbr-slider .modal-body .close {
   background: #1b1b1b;
 }
-.cid-rDZGo6Lpaj .row > .row {
-  display: block;
-}
-.cid-rDZGo6Lpaj .mbr-gallery-item {
-  width: 100%;
-  height: 25vw;
-  object-fit: cover;
-}
-.cid-rDZGo6Lpaj .mbr-gallery-item > div::before {
+.cid-rEb1PFUJ6r .mbr-gallery-item > div::before {
   content: '';
   position: absolute;
   left: 0;
@@ -24798,16 +24790,13 @@ body {
   transition: 0.2s opacity ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
 }
-.cid-rDZGo6Lpaj .mbr-gallery-item > div {
-  position: relative;
-}
-.cid-rDZGo6Lpaj .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+.cid-rEb1PFUJ6r .mbr-gallery-item > div:hover .mbr-gallery-title::before {
   background: transparent !important;
 }
-.cid-rDZGo6Lpaj .mbr-gallery-item > div:hover:before {
-  opacity: 0.5 !important;
+.cid-rEb1PFUJ6r .mbr-gallery-item > div:hover:before {
+  opacity: 0.7 !important;
 }
-.cid-rDZGo6Lpaj .mbr-gallery-title {
+.cid-rEb1PFUJ6r .mbr-gallery-title {
   font-size: .9em;
   position: absolute;
   display: block;
@@ -24817,7 +24806,7 @@ body {
   color: #fff;
   z-index: 2;
 }
-.cid-rDZGo6Lpaj .mbr-gallery-title:before {
+.cid-rEb1PFUJ6r .mbr-gallery-title:before {
   content: " ";
   width: 100%;
   height: 100%;
@@ -24826,7 +24815,7 @@ body {
   z-index: -1;
   position: absolute;
   background: #554346 !important;
-  opacity: 0.5;
+  opacity: 0.7;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
