@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "page39.html",
+    "currentPage": "page29.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1421,7 +1421,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/4-ycmw3565-levels-780x10408.jpg",
+                "image": "@PROJECT_PATH@/assets/images/4-ycmw3565-levels-780x10402.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/4-ycmw3565-levels-780x1040-780x1040.jpg",
                 "alt": "",
                 "title": "",
@@ -1642,7 +1642,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/sergeev-10-cropped-1932x12879.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sergeev-10-cropped-1932x12873.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/sergeev-10-cropped-1932x1287-800x533.jpg",
                 "alt": "",
                 "title": "",
@@ -26524,7 +26524,7 @@
             }
           },
           "_name": "content9",
-          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text><div><span style=\"font-size: 1.2rem;\">&nbsp; &nbsp;Лейтенант Королевских ВМС Британии, Эдуард Энсон являлся прямым потомком широко известного английского короля Генриха Восьмого (от его внебрачного сына Генри Фицроя). Эдуард был младшим сыном четвертого графа Личфилда, Томаса Эдуарда Энсона (4th Earl of Lichfield, Thomas Edward Anson).&nbsp;</span><br></div><div>\n</div><div>&nbsp; &nbsp;Эдуард Энсон и еще три английских моряка (радист и два сигнальщика) взошли на борт ледокола «Анастас Микоян» в ноябре 1941 года в Стамбуле. Все они были направлены на «Микоян» для связи с Британским морским командованием во время перехода. По договорённости между Советским правительством и правительством Великобритании, от пролива Дарданеллы и до Кипра ледокол должны были сопровождать английские боевые корабли. Но никакого сопровождения англичане дать не могли. Английский Средиземноморский флот в боях понёс большие потери. Рисковать своими кораблями ради охраны советского ледокола англичане не посчитали возможным, о чём сообщил капитану «Анастаса Микояна» британский представитель в Стамбуле. Ничем иным союзники помочь не могли, кроме как прикомандировать к кораблю четверых своих военнослужащих.\n</div><div>\n</div><div>&nbsp; &nbsp;Невзирая на аристократическое происхождение, Эдуард Энсон делил все тяготы перехода наравне с остальной командой. На корабле ходили слухи, что он был племянником английской королевы, но прямого отношения к королеве он не имел. Однако, его старший брат, Thomas William Arnold Anson, в 1938 году действительно женился на племяннице правящей в то время английской королевы Елизаветы (королевы-матери Елизаветы Второй, жены короля Георга VI), Anne Bowes Lyon (Анне Боуз-Лайон). Таким образом, к моменту кругосветного похода ледокола \"Анастас Микоян” Эдуард был младшим братом мужа племянницы английской королевы.\n</div><div>\n</div><div>&nbsp; &nbsp;После плавания на «Микояне», Эдуард Энсон был назначен на британский эсминец HMS Southdown. На этом корабле он и погиб в результате несчастного случая 6 октября 1943 года. Гибель Эдуарда загадочна и трагична, поскольку он был единственным погибшим в этот день на корабле, да и корабль в тот день не получил никаких серьезных повреждений. Эдуарду было всего 24 года.\n</div><div>\n</div><div>\n</div><div><br></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text><div><span style=\"font-size: 1.2rem;\">&nbsp; &nbsp;Лейтенант Королевских ВМС Британии, Эдуард Энсон являлся прямым потомком широко известного английского короля Генриха Восьмого (от его внебрачного сына Генри Фицроя). Эдуард был младшим сыном четвертого графа Личфилда, Томаса Эдуарда Энсона (4th Earl of Lichfield, Thomas Edward Anson). \n</span><br></div><div><span style=\"font-size: 1.2rem;\">&nbsp;</span></div><div>\n</div><div>&nbsp; &nbsp;Эдуард Энсон и еще три английских моряка (радист и два сигнальщика) взошли на борт ледокола «Анастас Микоян» в ноябре 1941 года в Стамбуле. Все они были направлены на «Микоян» для связи с Британским морским командованием во время перехода. По договорённости между Советским правительством и правительством Великобритании, от пролива Дарданеллы и до Кипра ледокол должны были сопровождать английские боевые корабли. Но никакого сопровождения англичане дать не могли. Английский Средиземноморский флот в боях понёс большие потери. Рисковать своими кораблями ради охраны советского ледокола англичане не посчитали возможным, о чём сообщил капитану «Анастаса Микояна» британский представитель в Стамбуле. Ничем иным союзники помочь не могли, кроме как прикомандировать к кораблю четверых своих военнослужащих.\n</div><div>&nbsp;</div><div>\n</div><div>&nbsp; &nbsp;Невзирая на аристократическое происхождение, Эдуард Энсон делил все тяготы перехода наравне с остальной командой. На корабле ходили слухи, что он был племянником английской королевы, но прямого отношения к королеве он не имел. Однако, его старший брат, Thomas William Arnold Anson, в 1938 году действительно женился на племяннице правящей в то время английской королевы Елизаветы (королевы-матери Елизаветы Второй, жены короля Георга VI), Anne Bowes Lyon (Анне Боуз-Лайон). Таким образом, к моменту кругосветного похода ледокола \"Анастас Микоян” Эдуард был младшим братом мужа племянницы английской королевы.\n</div><div>&nbsp;</div><div>\n</div><div>&nbsp; &nbsp;После плавания на «Микояне», Эдуард Энсон был назначен на британский эсминец HMS Southdown. На этом корабле он и погиб в результате несчастного случая 6 октября 1943 года. Гибель Эдуарда загадочна и трагична, поскольку он был единственным погибшим в этот день на корабле, да и корабль в тот день не получил никаких серьезных повреждений. Эдуарду было всего 24 года.\n</div><div>\n</div><div>\n</div><div><br></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
           "_cid": "rBa3wZlXBt",
           "_anchor": "content9-2m",
           "_protectedParams": [],
@@ -33236,12 +33236,12 @@
           "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>&nbsp; &nbsp;Еще подростком пришел на николаевский судостроительный завод (тогда \"Наваль\", во время войны - \"Морской\"). Дружил с тех пор с Иваном Стеценко. Вдвоем со Стеценко они были самыми пожилыми членами команды - им было под шестьдесят лет. Всвязи с преклонным возрастом, их не хотели включать в команду корабля, но они как-то настояли на этом. Служил кочегаром. На крабле имел прозвище \"таракан\" - за пышные усы. <br><br>&nbsp; &nbsp;После войны вернулся на завод и работал на нем до самой смерти.&nbsp;<br>&nbsp; &nbsp;<br><br><div>&nbsp; &nbsp;Фотографии на страницу добавлены по описанию из книги. Возможно, авторы сайта неверно узнали Дьяченко на фотографиях.</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
           "_cid": "rBDH208rbQ",
           "_anchor": "content9-2h",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_PHPplaceholders": [],
-          "_JSplaceholders": []
+          "_params": {}
         },
         {
           "alias": false,
@@ -36894,6 +36894,7 @@
           "_name": "gallery2",
           "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\"></div>\n    </div>\n\n</section>",
           "_cid": "rEgW4YAIEP",
+          "_anchor": "gallery2-7p",
           "_protectedParams": [
             "text_all",
             "gallery__filtersTextStyle",
@@ -36947,8 +36948,7 @@
                 "active": true
               }
             ]
-          },
-          "_anchor": "gallery2-7p"
+          }
         }
       ]
     },
@@ -39227,6 +39227,7 @@
           "_name": "gallery2",
           "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\"></div>\n    </div>\n\n</section>",
           "_cid": "rEgEdHqW2E",
+          "_anchor": "gallery2-7o",
           "_protectedParams": [
             "text_all",
             "gallery__filtersTextStyle",
@@ -39280,8 +39281,7 @@
                 "active": false
               }
             ]
-          },
-          "_anchor": "gallery2-7o"
+          }
         }
       ]
     },
