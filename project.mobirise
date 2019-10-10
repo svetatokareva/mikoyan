@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "page30.html",
+    "currentPage": "page62.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1421,7 +1421,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/4-ycmw3565-levels-780x10402.jpg",
+                "image": "@PROJECT_PATH@/assets/images/4-ycmw3565-levels-780x10404.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/4-ycmw3565-levels-780x1040-780x1040.jpg",
                 "alt": "",
                 "title": "",
@@ -1642,7 +1642,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/sergeev-10-cropped-1932x12873.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sergeev-10-cropped-1932x12875.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/sergeev-10-cropped-1932x1287-800x533.jpg",
                 "alt": "",
                 "title": "",
