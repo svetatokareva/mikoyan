@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "page3.html",
+    "currentPage": "page65.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -96,7 +96,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 349,
+    "uniqCompNum": 408,
     "versionPublish": "4.10.8",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/favicon.ico",
@@ -791,7 +791,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "Pictures",
-        "order": 54
+        "order": 55
       },
       "components": [
         {
@@ -1433,7 +1433,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/4-ycmw3565-levels-780x10402.jpg",
+                "image": "@PROJECT_PATH@/assets/images/4-ycmw3565-levels-780x10403.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/4-ycmw3565-levels-780x1040-780x1040.jpg",
                 "alt": "",
                 "title": "",
@@ -1490,8 +1490,8 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Капитан Сергеев (справа) с вахтенным шткрманом. Тихий океан, 1942. Фото из архива Донаусова.",
-                "active": false
+                "caption": "Капитан Сергеев (справа) с вахтенным штурманом. Тихий океан, 1942. Фото из архива Донаусова.",
+                "active": true
               },
               {
                 "tags": "Animated",
@@ -1654,7 +1654,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/sergeev-10-cropped-1932x12873.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sergeev-10-cropped-1932x12874.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/sergeev-10-cropped-1932x1287-800x533.jpg",
                 "alt": "",
                 "title": "",
@@ -1803,7 +1803,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Свиньи на борту \"Микояна\"",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Animated",
@@ -2694,7 +2694,7 @@
             }
           },
           "_name": "features18",
-          "_customHTML": "<section class=\"features18 popup-btn-cards\" group=\"Animated Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mbr-popup-btns\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Card Title\" name=\"showCardTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Card Background\" name=\"bgCard\" value=\"#ffffff\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h2 class=\"mbr-section-title pb-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            Image features with buttons on mouseover\n        </h2>\n        <h3 class=\"mbr-section-subtitle display-5 align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n            In browser you will see buttons when hover on cards\n        </h3>\n        <div class=\"media-container-row pt-5 \" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper \">\n                    <div class=\"card-img\">\n                        <div class=\"mbr-overlay\"></div>\n                        <div mbr-buttons mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" data-toolbar=\"-mbrBtnMove\">\n                            <a href=\"https://mobirise.co\" class=\"btn btn-primary\">Learn More</a>\n                        </div>\n                        <img src=\"@PROJECT_PATH@/assets/images/4.-odessa-sevastopol2-676x382.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showCardTitle\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">СЕВАСТОПОЛЬ<br><br>октябрь 1941&nbsp;</h4>\n                        <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Оборона Севастополя</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <div class=\"mbr-overlay\"></div>\n                        <div mbr-buttons mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" data-toolbar=\"-mbrBtnMove\">\n                            <a href=\"https://mobirise.co\" class=\"btn btn-primary\">Learn More</a>\n                        </div>\n                        <img src=\"@PROJECT_PATH@/assets/images/5.-sevastopol-novorossiysk2-676x383.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showCardTitle\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">\n                            НОВОРОССИЙСК<br><br>октябрь 1941</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Перевозка грузов и людей из Севастополя, отражение налетов авиации</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <div class=\"mbr-overlay\"></div>\n                        <div mbr-buttons mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" data-toolbar=\"-mbrBtnMove\">\n                            <a href=\"https://mobirise.co\" class=\"btn btn-primary\">Learn More</a>\n                        </div>\n                        <img src=\"@PROJECT_PATH@/assets/images/6.-novorossiysk-batumi2-676x385.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showCardTitle\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">ПОТИ И БАТУМИ<br><br>ноябрь 1941</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Разоружение корабля</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <div class=\"mbr-overlay\"></div>\n                        <div mbr-buttons mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" data-toolbar=\"-mbrBtnMove\">\n                            <a href=\"https://mobirise.co\" class=\"btn btn-primary\">Learn More</a>\n                        </div>\n                        <img src=\"../_images/background4.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showCardTitle\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">\n                            Unlimited Sites\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                           Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"features18 popup-btn-cards\" group=\"Animated Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mbr-popup-btns\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Card Title\" name=\"showCardTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Card Background\" name=\"bgCard\" value=\"#ffffff\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h2 class=\"mbr-section-title pb-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            Image features with buttons on mouseover\n        </h2>\n        <h3 class=\"mbr-section-subtitle display-5 align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n            In browser you will see buttons when hover on cards\n        </h3>\n        <div class=\"media-container-row pt-5 \" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper \">\n                    <div class=\"card-img\">\n                        <div class=\"mbr-overlay\"></div>\n                        <div mbr-buttons mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" data-toolbar=\"-mbrBtnMove\">\n                            <a href=\"https://mobirise.co\" class=\"btn btn-primary\">Learn More</a>\n                        </div>\n                        <a href=\"page66.html\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/4-5-676x371.jpeg\" alt=\"Mobirise\" title></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showCardTitle\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">СЕВАСТОПОЛЬ - <br><br>НОВОРОССИЙСК<br><br>октябрь 1941&nbsp;</h4>\n                        <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Оборона Севастополя,<br>Перевозка грузов и людей из Севастополя, отражение налетов авиации<br></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <div class=\"mbr-overlay\"></div>\n                        <div mbr-buttons mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" data-toolbar=\"-mbrBtnMove\">\n                            <a href=\"https://mobirise.co\" class=\"btn btn-primary\">Learn More</a>\n                        </div>\n                        <img src=\"@PROJECT_PATH@/assets/images/6.-novorossiysk-batumi2-676x385.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showCardTitle\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">ПОТИ И БАТУМИ\n<div>\n</div><div>ноябрь 1941</div></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Разоружение корабля, приказ идти в&nbsp;Босфор.</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <div class=\"mbr-overlay\"></div>\n                        <div mbr-buttons mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" data-toolbar=\"-mbrBtnMove\">\n                            <a href=\"https://mobirise.co\" class=\"btn btn-primary\">Learn More</a>\n                        </div>\n                        <img src=\"@PROJECT_PATH@/assets/images/7.-batumi-stambul-676x382.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showCardTitle\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">СТАМБУЛ<br><br>ноябрь-декабрь 1941</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Приказ&nbsp;следовать следовать на Дальний Восток, отказ Великобритании в охране советских судов на переходе.</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <div class=\"mbr-overlay\"></div>\n                        <div mbr-buttons mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" data-toolbar=\"-mbrBtnMove\">\n                            <a href=\"https://mobirise.co\" class=\"btn btn-primary\">Learn More</a>\n                        </div>\n                        <img src=\"../_images/background4.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showCardTitle\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">\n                            Unlimited Sites\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                           Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rETR6Pe0p1",
           "_anchor": "features18-84",
           "_protectedParams": [],
@@ -2708,7 +2708,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Letters",
-        "order": 55
+        "order": 56
       },
       "components": [
         {
@@ -9784,7 +9784,7 @@
       "settings": {
         "meta_descr": "Web Page Maker Description",
         "title": "After The War",
-        "order": 56
+        "order": 57
       },
       "components": [
         {
@@ -10363,7 +10363,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Sergeev",
-        "order": 43
+        "order": 44
       },
       "components": [
         {
@@ -11107,7 +11107,7 @@
       "settings": {
         "meta_descr": "Web Page Generator Description",
         "title": "Read",
-        "order": 64
+        "order": 65
       },
       "components": [
         {
@@ -11546,7 +11546,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Crew",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -13007,7 +13007,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Crew - Boev",
-        "order": 10
+        "order": 11
       },
       "components": [
         {
@@ -13684,7 +13684,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Crew - Novikov",
-        "order": 37
+        "order": 38
       },
       "components": [
         {
@@ -14236,7 +14236,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Crew - Kholin",
-        "order": 25
+        "order": 26
       },
       "components": [
         {
@@ -14788,7 +14788,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Marlyan",
-        "order": 33
+        "order": 34
       },
       "components": [
         {
@@ -15491,7 +15491,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Kamaev",
-        "order": 20
+        "order": 21
       },
       "components": [
         {
@@ -16039,7 +16039,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Zlotnik",
-        "order": 52
+        "order": 53
       },
       "components": [
         {
@@ -16794,7 +16794,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Groysman",
-        "order": 16
+        "order": 17
       },
       "components": [
         {
@@ -17536,7 +17536,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Crew - Babenko",
-        "order": 8
+        "order": 9
       },
       "components": [
         {
@@ -18224,7 +18224,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Donausov",
-        "order": 15
+        "order": 16
       },
       "components": [
         {
@@ -18921,7 +18921,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Popkov",
-        "order": 40
+        "order": 41
       },
       "components": [
         {
@@ -19592,7 +19592,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Barkovsky",
-        "order": 9
+        "order": 10
       },
       "components": [
         {
@@ -20347,7 +20347,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Polischuk",
-        "order": 39
+        "order": 40
       },
       "components": [
         {
@@ -20895,7 +20895,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Favorov",
-        "order": 19
+        "order": 20
       },
       "components": [
         {
@@ -21443,7 +21443,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Khamidulin",
-        "order": 23
+        "order": 24
       },
       "components": [
         {
@@ -21991,7 +21991,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Kuzov",
-        "order": 30
+        "order": 31
       },
       "components": [
         {
@@ -22675,7 +22675,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Golubkov",
-        "order": 17
+        "order": 18
       },
       "components": [
         {
@@ -23365,7 +23365,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Gladush",
-        "order": 18
+        "order": 19
       },
       "components": [
         {
@@ -24036,7 +24036,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Afanasiev",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -24720,7 +24720,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Skripnichenko",
-        "order": 45
+        "order": 46
       },
       "components": [
         {
@@ -25417,7 +25417,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Lebedev",
-        "order": 32
+        "order": 33
       },
       "components": [
         {
@@ -25965,7 +25965,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Dolzhenko",
-        "order": 14
+        "order": 15
       },
       "components": [
         {
@@ -26513,7 +26513,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Anson",
-        "order": 7
+        "order": 8
       },
       "components": [
         {
@@ -27184,7 +27184,7 @@
       "settings": {
         "meta_descr": "Web Page Maker Description",
         "title": "Mikoyan Meeting - 1973",
-        "order": 57
+        "order": 58
       },
       "components": [
         {
@@ -28122,7 +28122,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Contact Us",
-        "order": 65
+        "order": 66
       },
       "components": [
         {
@@ -28603,7 +28603,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Nikolaev Meeting - 1960s",
-        "order": 59
+        "order": 60
       },
       "components": [
         {
@@ -29137,7 +29137,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Nikolaev Meeting - 1973",
-        "order": 60
+        "order": 61
       },
       "components": [
         {
@@ -29671,7 +29671,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Nikolaev Meeting - 1970s",
-        "order": 62
+        "order": 63
       },
       "components": [
         {
@@ -30250,7 +30250,7 @@
       "settings": {
         "meta_descr": "Web Page Maker Description",
         "title": "Red Square - 1973",
-        "order": 58
+        "order": 59
       },
       "components": [
         {
@@ -30876,7 +30876,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Mikoyan Diner - 1973",
-        "order": 63
+        "order": 64
       },
       "components": [
         {
@@ -31455,7 +31455,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Nazaratiy",
-        "order": 36
+        "order": 37
       },
       "components": [
         {
@@ -32119,7 +32119,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Ruzakov",
-        "order": 42
+        "order": 43
       },
       "components": [
         {
@@ -32667,7 +32667,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Stetsenko",
-        "order": 47
+        "order": 48
       },
       "components": [
         {
@@ -33338,7 +33338,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Diachenko",
-        "order": 12
+        "order": 13
       },
       "components": [
         {
@@ -34011,7 +34011,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Crew - Khilko",
-        "order": 24
+        "order": 25
       },
       "components": [
         {
@@ -34692,7 +34692,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Lapa",
-        "order": 31
+        "order": 32
       },
       "components": [
         {
@@ -35240,7 +35240,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Koval",
-        "order": 28
+        "order": 29
       },
       "components": [
         {
@@ -35788,7 +35788,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Crew - Rubtsov",
-        "order": 41
+        "order": 42
       },
       "components": [
         {
@@ -36340,7 +36340,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Crew - Borisov",
-        "order": 11
+        "order": 12
       },
       "components": [
         {
@@ -36892,7 +36892,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Crew - Slusarenko",
-        "order": 46
+        "order": 47
       },
       "components": [
         {
@@ -37573,7 +37573,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Crew - Ulich",
-        "order": 53
+        "order": 54
       },
       "components": [
         {
@@ -38241,7 +38241,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Kiselev",
-        "order": 26
+        "order": 27
       },
       "components": [
         {
@@ -38789,7 +38789,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Crew - Sergeev2",
-        "order": 44
+        "order": 45
       },
       "components": [
         {
@@ -39341,7 +39341,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Crew - Dobrovolsky",
-        "order": 13
+        "order": 14
       },
       "components": [
         {
@@ -40022,7 +40022,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Oboyshev",
-        "order": 38
+        "order": 39
       },
       "components": [
         {
@@ -40570,7 +40570,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Kucherenko",
-        "order": 29
+        "order": 30
       },
       "components": [
         {
@@ -41118,7 +41118,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Nikolaev Miting - 1975",
-        "order": 61
+        "order": 62
       },
       "components": [
         {
@@ -41722,7 +41722,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Titerman",
-        "order": 49
+        "order": 50
       },
       "components": [
         {
@@ -42273,7 +42273,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Karchenkov",
-        "order": 21
+        "order": 22
       },
       "components": [
         {
@@ -42821,7 +42821,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Moroz",
-        "order": 35
+        "order": 36
       },
       "components": [
         {
@@ -43369,7 +43369,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Studenko",
-        "order": 48
+        "order": 49
       },
       "components": [
         {
@@ -43917,7 +43917,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Zemlyanoy",
-        "order": 51
+        "order": 52
       },
       "components": [
         {
@@ -44465,7 +44465,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Tokarev",
-        "order": 50
+        "order": 51
       },
       "components": [
         {
@@ -45013,7 +45013,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Kirko",
-        "order": 22
+        "order": 23
       },
       "components": [
         {
@@ -45561,7 +45561,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Kolbanov",
-        "order": 27
+        "order": 28
       },
       "components": [
         {
@@ -46112,7 +46112,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Crew - Mefodiev",
-        "order": 34
+        "order": 35
       },
       "components": [
         {
@@ -50346,7 +50346,7 @@
             }
           },
           "_name": "image1",
-          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/the1.6222lliqw28sckks8wgo0gcg4.ejcuplo1l0oo0sk8c40s8osc4.th-800x632.jpg\" width=\"1400\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                    Create awesome websites!\n                </div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/img027-1-1475x1006.jpg\" width=\"1400\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                    Create awesome websites!\n                </div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
           "_anchor": "image1-9m",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -50373,11 +50373,13 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">Матрос у зенитного пулемета ДШК советского эсминца «Сообразительный» во время обороны Одессы.<br>\n                http://waralbum.ru/46063/</div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">Старшие офицеры на борту \"Микояна\": <br>Старший боцман А.Д. Гройсман (первый слева) и старший штурман Н.Н. Марлян (третий слева) с неизвестными.<br>Фотография из архива А.Д. Гройсмана.</div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content1-9n",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "rF7C3Lj1Ai",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -51257,6 +51259,1495 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        }
+      ]
+    },
+    "page66.html": {
+      "settings": {
+        "meta_descr": "Web Page Maker Description",
+        "title": "Circumnavigation-1941-10",
+        "order": 5
+      },
+      "components": [
+        {
+          "_styles": {
+            ".navbar": {
+              "padding": ".5rem 0",
+              "background": "@menuBgColor",
+              "transition": "none",
+              "min-height": "77px"
+            },
+            ".navbar-dropdown.bg-color.transparent.opened": {
+              "background": "@menuBgColor"
+            },
+            "a": {
+              "font-style": "normal"
+            },
+            ".nav-item": {
+              "& span": {
+                "padding-right": "0.4em",
+                "line-height": "0.5em",
+                "vertical-align": "text-bottom",
+                "position": "relative",
+                "text-decoration": "none"
+              },
+              "& a": {
+                "display": "flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "padding": "0.7rem 0 !important",
+                "margin": "0rem .65rem !important"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".btn": {
+              "padding": "0.4rem 1.5rem",
+              ".mbr-iconfont": {
+                "font-size": "1.6rem"
+              },
+              "display": "inline-flex",
+              "align-items": "center"
+            },
+            ".menu-logo": {
+              "margin-right": "auto",
+              ".navbar-brand": {
+                "display": "flex",
+                "margin-left": "5rem",
+                "padding": "0",
+                "transition": "padding .2s",
+                "min-height": "3.8rem",
+                "align-items": "center",
+                ".navbar-caption-wrap": {
+                  "display": "-webkit-flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center",
+                  "word-break": "break-word",
+                  "min-width": "7rem",
+                  "margin": ".3rem 0",
+                  ".navbar-caption": {
+                    "line-height": "1.2rem !important",
+                    "padding-right": "2rem"
+                  }
+                },
+                ".navbar-logo": {
+                  "font-size": "4rem",
+                  "transition": "font-size 0.25s",
+                  "& img": {
+                    "display": "flex"
+                  },
+                  ".mbr-iconfont": {
+                    "transition": "font-size 0.25s"
+                  }
+                }
+              }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "flex-end",
+              "-webkit-justify-content": "flex-end",
+              "padding-right": "5rem",
+              "width": "auto",
+              ".navbar-nav": {
+                "flex-wrap": "wrap",
+                "-webkit-flex-wrap": "wrap",
+                "padding-left": "0",
+                ".nav-item": {
+                  "-webkit-align-self": "center",
+                  "align-self": "center"
+                }
+              },
+              ".navbar-buttons": {
+                "padding-left": "0",
+                "padding-bottom": "0"
+              }
+            },
+            ".dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                "display": "none",
+                "position": "absolute",
+                "min-width": "5rem",
+                "padding-top": "1.4rem",
+                "padding-bottom": "1.4rem",
+                "text-align": "left",
+                ".dropdown-item": {
+                  "width": "auto",
+                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
+                  "&::after": {
+                    "right": "0.5rem"
+                  }
+                },
+                ".dropdown-submenu": {
+                  "margin": "0"
+                }
+              },
+              "&.open > .dropdown-menu": {
+                "display": "block"
+              }
+            },
+            ".navbar-toggleable-sm": {
+              "&.opened:after": {
+                "position": "absolute",
+                "width": "100vw",
+                "height": "100vh",
+                "content": "''",
+                "background-color": "rgba(0, 0, 0, 0.1)",
+                "left": "0",
+                "bottom": "0",
+                "transform": "translateY(100%)",
+                "-webkit-transform": "translateY(100%)",
+                "z-index": "1000"
+              }
+            },
+            ".navbar.navbar-short": {
+              "min-height": "60px",
+              "transition": "all .2s",
+              "& .navbar-toggler-right": {
+                "top": "20px"
+              },
+              "& .navbar-logo a": {
+                "font-size": "2.5rem !important",
+                "line-height": "2.5rem",
+                "transition": "font-size 0.25s",
+                "& .mbr-iconfont": {
+                  "font-size": "2.5rem !important"
+                },
+                "& img": {
+                  "height": "3rem !important"
+                }
+              },
+              "& .navbar-brand": {
+                "min-height": "3rem"
+              }
+            },
+            "button.navbar-toggler": {
+              "width": "31px",
+              "height": "18px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "top": "1.5rem",
+              "right": "1rem",
+              "&:focus": {
+                "outline": "none"
+              },
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".collapsed": {
+              "&.navbar-expand": {
+                "flex-direction": "column"
+              },
+              ".btn": {
+                "display": "flex"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".navbar-expand": {
+                "flex-direction": "column"
+              },
+              "img": {
+                "height": "3.8rem !important"
+              },
+              ".btn": {
+                "display": "flex"
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (min-width: 767px)": {
+              ".menu-logo": {
+                "flex-shrink": "0"
+              }
+            },
+            ".navbar-collapse": {
+              "flex-basis": "auto"
+            },
+            ".nav-link:hover, .dropdown-item:hover": {
+              "color": "@itemsHoverColor !important"
+            }
+          },
+          "_name": "menu1",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobirise.com\">\n                         <img src=\"@THEME_PATH@/components/_images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>\n                        \n                        Главная страница</a></li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"page3.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"imind-globe mbr-iconfont mbr-iconfont-btn\"></span>\n                        \n                        Кругостветка</a>\n                </li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"page1.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbri-user mbr-iconfont mbr-iconfont-btn\"></span>\n                        \n                        Экипаж</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"page2.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"imind-camera-4 mbr-iconfont mbr-iconfont-btn\"></span>Военные Фотографии</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbri-edit mbr-iconfont mbr-iconfont-btn\"></span>Письма Капитану</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"page5.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v4-camera-1 mbr-iconfont mbr-iconfont-btn\"></span>\n                        \n                        После Войны</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"page6.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v3-bookopen-5 mbr-iconfont mbr-iconfont-btn\"></span>\n                        \n                        Почитать</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"page31.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"imind-email mbr-iconfont mbr-iconfont-btn\"></span>Свяжитесь с нами</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">\n                    <span class=\"mbri-save mbr-iconfont mbr-iconfont-btn \" data-app-selector=\".mbr-iconfont-btn\"></span>\n                    Try It Now!\n                </a></div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "rFt45hyg3Y",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {},
+          "_anchor": "menu1-9p"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".media-container-row .mbr-text": {
+              "color": "#232323",
+              "text-align": "center"
+            }
+          },
+          "_name": "footer6",
+          "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2019 Svetlana Tokareva - All Rights Reserved &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rFt45hYRRa",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {},
+          "_anchor": "footer6-9q"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            \n        </div>\n        </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_cid": "rFt45iqSE1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-9r"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".nav-tabs": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              "border-bottom": "none"
+            },
+            ".nav-tabs .nav-link": {
+              "box-sizing": "border-box",
+              "color": "@tabsColor",
+              "font-style": "normal",
+              "font-weight": "500",
+              "border-radius": "3px",
+              "border": "1px solid @tabsColor",
+              "padding": "1rem 3rem",
+              "margin": "0.4rem .8rem !important",
+              "transition": "all .3s",
+              "&:hover": {
+                "background-color": "@activeTabColor"
+              },
+              "&:focus": {
+                "box-shadow": "none",
+                "background-color": "@activeTabColor"
+              },
+              "&.active": {
+                "font-weight": "500",
+                "color": "contrast(@activeTabColor)",
+                "font-style": "normal",
+                "border": "none",
+                "background": "@activeTabColor",
+                "&:hover": {
+                  "border": "none"
+                }
+              }
+            },
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            },
+            "p": {
+              "color": "#767676"
+            },
+            ".media-container-row": {
+              "& when (@reverseContent)": {
+                "-webkit-flex-direction": "row-reverse",
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".mbr-figure": {
+              "-webkit-flex-shrink": "0",
+              "flex-shrink": "0",
+              "-webkit-align-self": "flex-start",
+              "align-self": "flex-start",
+              "padding-right": "4rem",
+              "& when (@reverseContent)": {
+                "padding-right": "0",
+                "padding-left": "4rem"
+              }
+            },
+            ".mbr-text": {
+              "word-break": "break-word"
+            },
+            "@media (max-width: 991px)": {
+              ".media-container-row": {
+                "& when (@reverseContent)": {
+                  "-webkit-flex-direction": "column-reverse",
+                  "flex-direction": "column-reverse"
+                }
+              },
+              ".mbr-figure": {
+                "padding-right": "0",
+                "padding-left": "0",
+                "padding-bottom": "2rem",
+                "& when (@reverseContent)": {
+                  "padding-bottom": "0",
+                  "padding-top": "2rem"
+                }
+              }
+            },
+            "P": {
+              "color": "#232323",
+              "text-align": "center"
+            }
+          },
+          "_name": "tabs4",
+          "_customHTML": "<section class=\"tabs4\" group=\"Accordion & Toggles & Tabs\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-tabs\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"20\" max=\"80\" step=\"1\" value=\"60\">\n        <input type=\"color\" title=\"Tabs Color\" name=\"tabsColor\" value=\"#767676\">\n        <input type=\"color\" title=\"Active Tab Color\" name=\"activeTabColor\" value=\"#149dcc\">\n        <select title=\"Tabs Count\" name=\"bootstrapTabs\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <h2 class=\"mbr-section-title align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n            Tabs and media\n        </h2>\n        <h3 class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n            Lorem ipsum dolor sit amet.\n        </h3>\n\n        <div class=\"media-container-row mt-5 pt-3\">\n            <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/4-5-676x371.jpeg\" alt=\"Mobirise\" title>\n            </div>\n            <div class=\"tabs-container\">              \n                <div class=\"tab-content\">\n                    <div id=\"tab1\" class=\"tab-pane in active\" role=\"tabpanel\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-1\">СЕВАСТОПОЛЬ - НОВОРОССИЙСК<br>октябрь 1941</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab2\" class=\"tab-pane\" role=\"tabpanel\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab3\" class=\"tab-pane\" role=\"tabpanel\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab4\" class=\"tab-pane\" role=\"tabpanel\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Sites made with Mobirise are 100% mobile-friendly according the latest Google Test and Google loves those websites (officially)!\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab5\" class=\"tab-pane\" role=\"tabpanel\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab6\" class=\"tab-pane\" role=\"tabpanel\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-5 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_cid": "rFt45iJ5Cq",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "tabs4-9s"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><span style=\"font-family: 'Bad Script';font-size: 1.3rem;\"><p>&nbsp; &nbsp;И здесь, в Севастополе, в базе, корабли не имеют отдыха. Немецкая авиация каждую ночь и по нескольку раз делает налеты. Ущербу мало, грохоту много. Весьма. Приходят не радостные вести с Турецкого вала, Крым под угрозой. Армия и тут не держит.\n<span style=\"font-size: 1.3rem;\"></span></p><p>&nbsp; &nbsp; Неужели возможна вторая оборона Севастополя с суши, очень похоже, что так. Богопротивно!\n</p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * * *<br><p>&nbsp; &nbsp;Одесский огненный котел сжег своих защитников. Фронта нет, он умер. Об Одессе уже больше не говорят, она перестала быть нашей — до лучших будущих времен. Знаю! Верю!\n<span style=\"font-size: 1.3rem;\"></span></p><p>&nbsp; &nbsp;Остались тяжелые героические воспоминания и тысячи мучеников в госпиталях, живых свидетелей былой славы.\n<span style=\"font-size: 1.3rem;\"></span></p><p>&nbsp; &nbsp;Крымский фронт рухнул, как легкий заборчик. Немец прет на Севастополь. Нет уже никакого сомнения в том, что вскорости в Севастополе и вокруг него вспыхнет огненное кольцо, и заклокочет смертельное варево.\n<span style=\"font-size: 1.3rem;\"></span></p><p>Злость. И обидно.&nbsp;</p></span></div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_cid": "rFt45jkssN",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-9t"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 0px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text P": {
+              "text-align": "center"
+            },
+            ".mbr-text": {
+              "text-align": "right"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">&nbsp;Из дневника капитана корабля, <a href=\"page7.html\" target=\"_blank\">С.М.Сергеева</a>.</div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rFt45jIswW",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-9u"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            \n        </div>\n        </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rFt45k3wfF",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-9v"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>&nbsp; &nbsp;Со дня нашего прихода в Севастополь ... артиллеристы, зенитчики нашего \"Микояна\" совместно с зенитчиками других кораблей и береговых батарей отражали нередкие налеты немецкой авиации на этот город. Случалось и не единожды бить по вражеским самолетам, прямою наводкой и из орудий главного калибра. И хотя результативность такой стрельбы была нулевой, ее зрелищность была прямо-таки потрясающей. Надо думать, что находившиеся в то время в них немецкие летчики чувствовали себя очень и очень неуютно, в до предела повышенном напряжении и страхе, когда видели как возле их самолетов пролетают пудовые болванки. Тем же самым нашим зенитчикам пришлось заниматься и по приходе \"Микояна\" в Новороссийск. Причем в то время эти налеты на него были, пожалуй, даже более массированными и более ожесточенными, нежели на Севастополь.\n</p></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-b0",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rFto4maShx",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "text-align": "right"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">Из воспоминаний <i><a href=\"page22.html\" target=\"_blank\">Н.И.</a></i><a href=\"page22.html\" target=\"_blank\"> </a><i><a href=\"page22.html\" target=\"_blank\">Кузова</a></i></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-b3",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rFtokh6EgE",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline=\"\" title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            \n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-b1",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rFtofG4Are",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image1",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/1941-2-restored2-1466x999.jpg\" width=\"1400\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                    Create awesome websites!\n                </div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rFt45nV7zE",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image1-a5"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 0px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text P": {
+              "text-align": "center"
+            },
+            ".mbr-text": {
+              "text-align": "center"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">Старший механик <a href=\"page13.html\" target=\"_blank\">Ю.М. Злотник</a> с неизвестным.<br>Новороссийск, октябрь 1941.<br>фото из архива Ю.М. Злотника.</div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rFt45oobyy",
+          "_anchor": "content1-a6",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline=\"\" title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            \n        </div>\n        </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rFt45lmtow",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-9y"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">&nbsp; &nbsp;В октябре «Микоян» получил приказ перейти в Новороссийск. В Севастополе на него погрузили воинскую часть,36 стволов дальнобойных морских орудий и боеприпасы. Орудия имели очень большой вес, и перевезти их мог только «Микоян». Отразив на переходе атаку самолётов противника, 15 октября корабль прибыл в Новороссийск.\n<div>\n</div><div>&nbsp; &nbsp;Принял участие вспомогательный крейсер и в обороне Севастополя, систематически совершая рейсы из Новороссийска. Доставляя в осаждённый город пополнение, военные грузы, вывозил раненых и гражданское население. На нём эвакуировали личный состав и оружие 2-й бригады торпедных катеров, начали вывозить демонтированную художественную и историческую ценность – «Панораму обороны Севастополя. В октябре на нём было эвакуировано более 1000 раненых. В начале ноября на «Микояне» в Новороссийск перешёл штаб флота. Корабль вёл огонь и по позициям врага под Севастополем. Не раз попадал он в тяжёлое положение. Но выручали трезвый расчёт командира корабля, трудовой энтузиазм и смекалка моряков. В сложных условиях личным составом была поставлена на место одна машина, сдвинутая с фундамента при бомбёжке, и отцентрирована линия вала. &nbsp;</div></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rFt45lMhZ0",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-9z"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 0px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text P": {
+              "text-align": "center"
+            },
+            ".mbr-text": {
+              "text-align": "right",
+              "color": "#232323"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">Николай Козлов<span style=\"font-size: 1.2rem;\"></span><div>http://www.polk.ru/forum/<span style=\"font-size: 1.2rem;\">index.php?showtopic=4387&amp;page=1</span></div></div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_cid": "rFt45m7EUp",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-a0"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            \n        </div>\n        </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rFt45muahT",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-a1"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><span style=\"font-family: 'Bad Script';font-size: 1.3rem;\"><p>&nbsp; &nbsp;После возвращения из-под Одессы на главную базу в Севастополь в соответствии с планом эвакуации в/крейсер перевозил из Севастополя в Новороссийск артиллерийские различные грузы. В частности, были перевезены двенадцать запасных артиллерийских стволов 305 м/м главного калибра линкора и 18 артиллерийских стволов 180 м/м тяжёлых орудий. Груз весьма весомый был взят на палубу корабля и благополучно доставлен по назначению. </p><p>&nbsp; &nbsp;В пути, как всегда, корабль подвергался атакам с воздуха. Все атаки были отбиты, а два самолёта Ю-88 (бомбардировщик Junkers Ju 88) противника сбиты.</p></span></div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rFt45mN6DL",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-a2"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 0px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text P": {
+              "text-align": "center"
+            },
+            ".mbr-text": {
+              "text-align": "right"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">&nbsp;\"Особое Задание\"&nbsp;<a href=\"page7.html\" target=\"_blank\">С.М.Сергеев</a>.</div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rFt45nbg8t",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-a3"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline=\"\" title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            \n        </div>\n        </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rFt45nx5Db",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-a4"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><span style=\"font-size: 1.6rem;\">&nbsp; &nbsp;Ошвартовавшись у одного из причалов порта, мы приступили к выгрузке доставленных нами сюда &lt;в Новороссийск&gt; из Севастополя многих ценнейших грузов, которые необходимо было сберечь и сохранить до лучших времен. В числе этих грузов были и двенадцать стволов двенадцати-(или даже четырнадцати) -дюймовых орудий, предназначавшихся для начатого постройкой в Николаеве линейного корабля (название которого затрудняюсь назвать). На время перехода мы их закрепили цепями прямо на его верхней палубе. Крепеж безусловно весьма опасный и рискованный, но благодарение Богу, ниспославшему нам отличную погоду и уберегшего нас от налетов вражеской авиации в ходе него, все обошлось вполне благополучно. Нетрудно представить, как бы все это выглядело, не свершись обратное, не снизойди до нас такие его милости и благоприятствования на этот случай. Размер этих стволов был огромен и внушителен. Они лежали на ней, как фабричные трубы, вызывая у нас своим видом и мощью невольное восхищение и уважение к себе.</span><br></p><p>&nbsp; &nbsp;Очередной налет вражеской авиации на Новороссийск, пришедшийся как мне помнится вскоре же по нашему приходу в него, как раз и застал нас за их выгрузкой.\n</p><p>&nbsp; &nbsp;Наступил решающий момент боя. Мощным огнем всех своих зенитных орудий и пулеметов мы отражали яростные атаки вражеских пикирующих бомбардировщиков, решительно пресекая возможность их пикирования и прицельного бомбометания в, него их разящих бомбовых ударов.\n</p><p>&nbsp; &nbsp;Из общего числа сброшенных ими бомб три бомбы, разорвавшиеся в двух-трех десятках метров от бортов нашего \"Микояна\", видимо не были случайными и предназначались, как мы это \n<span style=\"font-size: 1.6rem;\">правильно поняли, и, если так можно выразиться, персонально ему. И то, что они не грохнулись на его палубу и на его надстройки и не отправили его вместе со всеми нами на дно Цемесской бухты, безусловно сыграло свою решающую роль – тот мощный упреждающий огонь, который мы вели по налетевшим немецким самолетам и все также благосклонность, ниспосланная нам богом судьбы - фортуна нашего счастья, которая оберегала нас в Николаеве и под Одессой, и в Севастополе, и здесь, в Новороссийске. Вздыбив на месте своего падения зеркальную гладь моря, рухнул в него и ушел на дно сбитый нашими зенитчиками один из принимавших участие в этом налете вражеский бомбардировщик, который за минуты до того, как быть обитым и низвергнуться с заоблачных высот в пучину моря, все же успел двумя своими бомбами разворотить корму и натворить немало бед находившемуся невдалеке от нас крейсеру \"Ворошилов\", большой урон в результате этого налета понесли и неразумно сбившиеся в плотную кучу небольшие деревянные, рыболовные суденышки, отстаивавшиеся в то время в порту. Залетевшая в самую ее середину увесистая фугаска разбила и раскидала их во все стороны, не оставив в целости ни одного из них. Уж куда попала одна из бомб, видимо знают только те, куда она попала. Оседая на сушу и на воду, в воздухе, как в снежную зимнюю метель, кружилась масса какого-то пуха и перьев - осыпав ими палубу и надстройки и нашего \"Микояна\". Пострадали при этом налете и многие промышленные предприятия, коммуникации и жилые кварталы-города. Были жертвы и среди его населения, число которых не сообщалось.&nbsp;</span></p></div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_cid": "rFt45kpsMM",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-9w"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text P": {
+              "text-align": "right"
+            },
+            ".mbr-text": {
+              "text-align": "right"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">Воспоминания<a href=\"page22.html\" target=\"_blank\"> Н.И. Кузова</a></div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_cid": "rFt45l2eJP",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-9x"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline=\"\" title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            \n        </div>\n        </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rFt45oMu3c",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-a7"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><span style=\"font-family: 'Bad Script';font-size: 1.3rem;\"><p>&nbsp; &nbsp;Мотаюсь в море между Севастополем и Новороссийском. Всякое добришко военное на спине своего слона таскаю подальше от огня. Хожу один, как всегда, никаких охранений. Начальство совершенно убеждено в том, что мой корабль и я сам заговорены от всяких авионов и подлодок противника. Да мне и не нужно никаких охранений. Ради бога увольте от этих ледащих катеришек. Возись с ним, с этим охранением, как черт с младенцем. Я иду подальше в море, а у катера топлива не хватит. Вот тебе и охранение. Нет. Нет, не надо. Я уж как-нибудь сам охраню себя. Хожу далеко вне видимости берегов и никаких встреч с самолетами, с подлодками противника не происходит. Противник сидит и сторожит там у крымского берега, на большой корабельной дороге. Нисколько не удивляюсь, что там часто топят корабли. На ловца и зверь бежит.\n</p><p>\n &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;* * *<span style=\"font-size: 1.3rem;\"></span></p><p>&nbsp; &nbsp;На рейде Севастополя пусто. Так называемое «боевое ядро флота» испарилось, как дым. Удрали жуки на Кавказское побережье.\n<span style=\"font-size: 1.3rem;\"></span></p><p>&nbsp; &nbsp;Над бухтой немецкая авиация висит и кружит в хороводе с нашими истребителями день и ночь. Стоянка очень беспокойная. Того и гляди всадят бомбы в корабль. Позор, в конюшне потопить могут.\n<span style=\"font-size: 1.3rem;\"></span></p><p>Приказано перебазироваться в Новороссийск и там остаться до особого приказа.\n<span style=\"font-size: 1.3rem;\"></span></p><p>\n \n &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;* * *<span style=\"font-size: 1.3rem;\"></span></p><p>&nbsp; &nbsp;Дело сделано, стою в Новороссийске, а немецкая авиация и здесь покоя нам не дает и тревожит. Налетают каждую ночь. Это уже никуда не годится. Микояновцы остервенились ужасно, при налетах лупят так отчаянно из орудий, что удачно создается завеса огня. Оглушаем город. Жители не в обиде, но зато рассеиваем самолеты противника и не даем бомбить себя.\n<span style=\"font-size: 1.3rem;\"></span></p><p>&nbsp; &nbsp;Применяю проверенную боевым опытом тактику, часто меняю места.\n<span style=\"font-size: 1.3rem;\"></span></p><p>&nbsp; &nbsp;Все пока идет благополучно. На крейсере «Микоян», кажется, на единственном корабле Черноморского Флота, нет жертв и раненых. Мне бы очень хотелось сохранить до конца войны жизнь и здоровье матросов — молодцов</p></span></div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rFt45sSVxg",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-ah"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 0px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text P": {
+              "text-align": "center"
+            },
+            ".mbr-text": {
+              "text-align": "right"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline=\"\" mbr-article=\"\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">&nbsp;Из дневника капитана корабля, <a href=\"page7.html\" target=\"_blank\">С.М.Сергеева</a>.</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-b4",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rFtpLBPlyd",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline=\"\" title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            \n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-b5",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rFtpMV2ZmS",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>&nbsp; &nbsp;К этому времени вражеская авиация начала усиленно бомбить Новороссийск. Обычно перед налётом бомбардировщиков над портом пролетал самолёт-разведчик. Как только он улетал, капитан 2 ранга<a href=\"page7.html\" target=\"_blank\"> С.М.Сергеев</a> менял место стоянки «Микояна». Этим он выводил корабль из-под удара, а зенитчики участвовали в отражении налета вражеских бомбардировщиков.\n<span style=\"font-size: 1.2rem;\"></span></p><p>&nbsp; &nbsp;Команда любила своего командира. Он был для всех примером мужества и решительности. Все знали, что во время гражданской войны в Испании их командир добровольцем, умело и храбро сражался с фашистами в рядах республиканских моряков. За что и был награждён двумя орденами, сверкавших на его кителе.</p></div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rFt45pffFR",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-a8"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "text-align": "right",
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">Николай Козлов\n<div>http://www.polk.ru/forum/index.php?showtopic=4387&amp;page=1</div></div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rFt45pFAfF",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-a9"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline=\"\" title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            \n        </div>\n        </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rFt45tGlRP",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-aj"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><span style=\"font-family: 'Bad Script';font-size: 1.3rem;\"><p>&nbsp; &nbsp;Черт знает, что это такое. Я немножко испуган. Со мной случился непонятный   припадок – обходил корабль, спустился в первую кочегарку и вдруг – страшный непонятный внутренний жар пронзил меня, я облился потом. Жар сменился невыносимыми болями в области почек и сердца. Меня почти без памяти вынесли из кочегарки и принесли в каюту. Боль меня держала скованным более двух часов. Я чуть было не смалодушничал и не пустил себе пулю в башку. Удержался, а теперь все хорошо – нет болей, и чувствую я себя отлично.\n</p><p>&nbsp; &nbsp;В чем же дело? Врач говорит, что это какой-то нервный припадок от переутомления. Не верится, мне кажется, это проклятая контузия дает себя знать.\n</p><p>&nbsp; &nbsp;Плюнем на это дело и забудем, чем скорей, тем лучше.\n</p><p>\n \n \n &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;* * *</p><p>&nbsp; &nbsp;Все сводки с фронта – сплошное огорчение. Я вижу все зловещие признаки приготовления Новороссийска к драпу. Мне приказано перейти в Поти. Что я там буду делать со своим кораблищем? – небо чадить? \n</p><p>Что же разве уже для кораблей флота нет боевых дел?\n<span style=\"font-size: 1.3rem;\"></span></p><p>&nbsp; &nbsp;Ну, что ж, придётся не торопясь собраться и уйти, мужественно унося с собой временную неудачу. Когда-нибудь и для нас настоящее дело будет.\n</p></span></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-b7",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rFtrUFBFAk",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 0px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text P": {
+              "text-align": "center"
+            },
+            ".mbr-text": {
+              "text-align": "right"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline=\"\" mbr-article=\"\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">&nbsp;Из дневника капитана корабля, <a href=\"page7.html\" target=\"_blank\">С.М.Сергеева</a>.</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-b9",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rFtsatMfJQ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline=\"\" title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            \n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-bb",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rFtsfWd1iy",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image1",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/2-mrvb7678-levels-968x7145.jpg\" width=\"1400\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                    Create awesome websites!\n                </div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rFt45u47hM",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image1-ak"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 0px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text P": {
+              "text-align": "center"
+            },
+            ".mbr-text": {
+              "text-align": "center"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">Капитан <a href=\"page7.html\" target=\"_blank\">С.М. Сергеев</a> (справа) с вахтенным штурманом, 1942 год.&nbsp;<br>Фотография из архива второго механика&nbsp;<a href=\"page16.html\" target=\"_blank\">В.Ф. Донаусова</a>.</div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rFt45uxzRw",
+          "_anchor": "content1-al",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline=\"\" title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            \n        </div>\n        </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rFt45yQrFq",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-av"
         }
       ]
     }
