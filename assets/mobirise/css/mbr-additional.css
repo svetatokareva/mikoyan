@@ -2,8 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Questrial:400&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Caveat:400,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Bad+Script:400);
-@import url(https://fonts.googleapis.com/css?family=Marck+Script:400);
+
 
 
 
@@ -692,7 +691,8 @@ blockquote {
 .lazy-bg {
   background-image: none !important;
 }
-.lazy-placeholder:not(section) {
+.lazy-placeholder:not(section),
+.lazy-none {
   display: block;
   position: relative;
   padding-bottom: 56.25%;
