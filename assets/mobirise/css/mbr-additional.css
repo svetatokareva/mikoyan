@@ -46556,6 +46556,53 @@ section.lazy-placeholder:after {
     width: 100% !important;
   }
 }
+.cid-rLRVzG9ZFL {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rLRVzG9ZFL .mbr-text,
+.cid-rLRVzG9ZFL blockquote {
+  color: #767676;
+}
+.cid-rLRVFcvqTJ {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rLRVFcvqTJ .mbr-text,
+.cid-rLRVFcvqTJ blockquote {
+  color: #767676;
+}
+.cid-rLRVFcvqTJ .mbr-text P {
+  text-align: right;
+}
+.cid-rLRVFcvqTJ .mbr-text {
+  text-align: right;
+}
+.cid-rLRVCcIxJT {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-rLRVCcIxJT .line {
+  background-color: #149dcc;
+  color: #149dcc;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rLRVCcIxJT .section-text {
+  padding: 2rem 0;
+}
+.cid-rLRVCcIxJT .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rLRVCcIxJT .inner-container {
+    width: 100% !important;
+  }
+}
 .cid-rJn4aAcViV {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -52245,6 +52292,56 @@ section.lazy-placeholder:after {
 }
 @media (max-width: 768px) {
   .cid-rKcCYkhQcE .inner-container {
+    width: 100% !important;
+  }
+}
+.cid-rLRL3LBebQ {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rLRL3LBebQ .mbr-text,
+.cid-rLRL3LBebQ blockquote {
+  color: #767676;
+}
+.cid-rLRL3LBebQ .mbr-text {
+  color: #232323;
+}
+.cid-rLRL6F5P5t {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rLRL6F5P5t .mbr-text,
+.cid-rLRL6F5P5t blockquote {
+  color: #767676;
+}
+.cid-rLRL6F5P5t .mbr-text P {
+  text-align: right;
+}
+.cid-rLRL6F5P5t .mbr-text {
+  text-align: right;
+}
+.cid-rLRLd82aGQ {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-rLRLd82aGQ .line {
+  background-color: #149dcc;
+  color: #149dcc;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rLRLd82aGQ .section-text {
+  padding: 2rem 0;
+}
+.cid-rLRLd82aGQ .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rLRLd82aGQ .inner-container {
     width: 100% !important;
   }
 }
