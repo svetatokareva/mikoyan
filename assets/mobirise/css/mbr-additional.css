@@ -3,12 +3,12 @@
 @import url(https://fonts.googleapis.com/css?family=Caveat:400,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap);
 
+
 @import url(https://fonts.googleapis.com/css?family=Bad+Script:400);
 @import url(https://fonts.googleapis.com/css?family=Marck+Script:400);
 @import url(https://fonts.googleapis.com/css?family=Jura:400);
 @import url(https://fonts.googleapis.com/css?family=Neucha:400);
 @import url(https://fonts.googleapis.com/css?family=Poiret+One:400);
-
 
 
 body {
@@ -2725,6 +2725,64 @@ section.lazy-placeholder:after {
 }
 .cid-rNNHSnnm6T .mbr-text {
   text-align: center;
+}
+.cid-rQH6yttIUq {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-rQH6yttIUq .line {
+  background-color: #149dcc;
+  color: #149dcc;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rQH6yttIUq .section-text {
+  padding: 2rem 0;
+}
+.cid-rQH6yttIUq .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rQH6yttIUq .inner-container {
+    width: 100% !important;
+  }
+}
+.cid-rQH6vL8nJY {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rQH6vL8nJY .mbr-text,
+.cid-rQH6vL8nJY blockquote {
+  color: #767676;
+}
+.cid-rQH6vL8nJY .mbr-text {
+  color: #232323;
+}
+.cid-rQH72ql5pK {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-rQH72ql5pK .line {
+  background-color: #149dcc;
+  color: #149dcc;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rQH72ql5pK .section-text {
+  padding: 2rem 0;
+}
+.cid-rQH72ql5pK .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rQH72ql5pK .inner-container {
+    width: 100% !important;
+  }
 }
 .cid-rOEiazBeaL {
   padding-top: 45px;
