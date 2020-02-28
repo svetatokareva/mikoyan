@@ -10626,34 +10626,26 @@ section.lazy-placeholder:after {
 .cid-rB9me6ByQY .mbr-text P {
   text-align: right;
 }
-.cid-rQ9ldcXv7C {
+.cid-rRLDkG81fw {
   padding-top: 0px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
-.cid-rQ9ldcXv7C .mbr-slider .carousel-control {
+.cid-rRLDkG81fw .mbr-slider .carousel-control {
   background: #1b1b1b;
 }
-.cid-rQ9ldcXv7C .mbr-slider .carousel-control-prev {
+.cid-rRLDkG81fw .mbr-slider .carousel-control-prev {
   left: 0;
   margin-left: 2.5rem;
 }
-.cid-rQ9ldcXv7C .mbr-slider .carousel-control-next {
+.cid-rRLDkG81fw .mbr-slider .carousel-control-next {
   right: 0;
   margin-right: 2.5rem;
 }
-.cid-rQ9ldcXv7C .mbr-slider .modal-body .close {
+.cid-rRLDkG81fw .mbr-slider .modal-body .close {
   background: #1b1b1b;
 }
-.cid-rQ9ldcXv7C .row > .row {
-  display: block;
-}
-.cid-rQ9ldcXv7C .mbr-gallery-item {
-  width: 100%;
-  height: 25vw;
-  object-fit: cover;
-}
-.cid-rQ9ldcXv7C .mbr-gallery-item > div::before {
+.cid-rRLDkG81fw .mbr-gallery-item > div::before {
   content: '';
   position: absolute;
   left: 0;
@@ -10666,16 +10658,13 @@ section.lazy-placeholder:after {
   transition: 0.2s opacity ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
 }
-.cid-rQ9ldcXv7C .mbr-gallery-item > div {
-  position: relative;
-}
-.cid-rQ9ldcXv7C .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+.cid-rRLDkG81fw .mbr-gallery-item > div:hover .mbr-gallery-title::before {
   background: transparent !important;
 }
-.cid-rQ9ldcXv7C .mbr-gallery-item > div:hover:before {
-  opacity: 0.5 !important;
+.cid-rRLDkG81fw .mbr-gallery-item > div:hover:before {
+  opacity: 0 !important;
 }
-.cid-rQ9ldcXv7C .mbr-gallery-title {
+.cid-rRLDkG81fw .mbr-gallery-title {
   font-size: .9em;
   position: absolute;
   display: block;
@@ -10685,7 +10674,7 @@ section.lazy-placeholder:after {
   color: #fff;
   z-index: 2;
 }
-.cid-rQ9ldcXv7C .mbr-gallery-title:before {
+.cid-rRLDkG81fw .mbr-gallery-title:before {
   content: " ";
   width: 100%;
   height: 100%;
@@ -10694,7 +10683,7 @@ section.lazy-placeholder:after {
   z-index: -1;
   position: absolute;
   background: #554346 !important;
-  opacity: 0.5;
+  opacity: 0;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
