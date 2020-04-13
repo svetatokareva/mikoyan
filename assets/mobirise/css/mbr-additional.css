@@ -3,7 +3,6 @@
 @import url(https://fonts.googleapis.com/css?family=Caveat:400,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap);
 
-
 @import url(https://fonts.googleapis.com/css?family=Bad+Script:400);
 @import url(https://fonts.googleapis.com/css?family=Marck+Script:400);
 @import url(https://fonts.googleapis.com/css?family=Jura:400);
@@ -14,6 +13,7 @@
    font-display: swap;
    src: url('../../../fonts/BKHandyCyr/font.ttf');
 }
+
 
 
 body {
@@ -6863,6 +6863,43 @@ section.lazy-placeholder:after {
   -webkit-justify-content: center;
 }
 .cid-rOFP0pOvWy .team-item .item-social .socicon {
+  color: #232323;
+  font-size: 17px;
+}
+.cid-rVZkU6ldWb {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rVZkU6ldWb .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rVZkU6ldWb .media-row {
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+.cid-rVZkU6ldWb .team-item {
+  transition: all .2s;
+  margin-bottom: 2rem;
+}
+.cid-rVZkU6ldWb .team-item .item-image img {
+  width: 100%;
+}
+.cid-rVZkU6ldWb .team-item .item-name p {
+  margin-bottom: 0;
+}
+.cid-rVZkU6ldWb .team-item .item-role p {
+  margin-bottom: 0;
+}
+.cid-rVZkU6ldWb .team-item .item-social {
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: center;
+}
+.cid-rVZkU6ldWb .team-item .item-social .socicon {
   color: #232323;
   font-size: 17px;
 }
