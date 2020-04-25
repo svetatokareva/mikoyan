@@ -22999,15 +22999,15 @@ section.lazy-placeholder:after {
   text-align: center;
 }
 .cid-rBfVjNIfSh {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background-image: url("../../../assets/images/chalkboard-background-2000x1334.jpg");
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
 }
 .cid-rBfVjNIfSh .title {
   margin-bottom: 2rem;
 }
 .cid-rBfVjNIfSh .mbr-section-subtitle {
-  color: #ffffff;
+  color: #232323;
 }
 .cid-rBfVjNIfSh a:not([href]):not([tabindex]) {
   color: #fff;
@@ -23020,7 +23020,71 @@ section.lazy-placeholder:after {
   min-height: 188px;
 }
 .cid-rBfVjNIfSh H2 {
-  color: #ffffff;
+  color: #232323;
+}
+.cid-rXcscFtvg3 {
+  padding-top: 45px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+@media (max-width: 767px) {
+  .cid-rXcscFtvg3 .media-wrap {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+}
+.cid-rXcscFtvg3 .media-wrap .mbr-iconfont-logo {
+  font-size: 7rem;
+  color: #f36;
+}
+.cid-rXcscFtvg3 .media-wrap img {
+  height: 6rem;
+}
+.cid-rXcscFtvg3 .mbr-text {
+  color: #767676;
+}
+@media (max-width: 767px) {
+  .cid-rXcscFtvg3 .footer-lower .copyright {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+}
+.cid-rXcscFtvg3 .footer-lower hr {
+  margin: 1rem 0;
+  border-color: #000;
+  opacity: .05;
+}
+.cid-rXcscFtvg3 .footer-lower .social-list {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+.cid-rXcscFtvg3 .footer-lower .social-list .mbr-iconfont-social {
+  font-size: 1.3rem;
+  color: #232323;
+}
+.cid-rXcscFtvg3 .footer-lower .social-list .soc-item {
+  margin: 0 .5rem;
+}
+.cid-rXcscFtvg3 .footer-lower .social-list a {
+  margin: 0;
+  opacity: .5;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+.cid-rXcscFtvg3 .footer-lower .social-list a:hover {
+  opacity: 1;
+}
+@media (max-width: 767px) {
+  .cid-rXcscFtvg3 .footer-lower .social-list {
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
 }
 .cid-rB9w8EGV9S .navbar {
   padding: .5rem 0;
