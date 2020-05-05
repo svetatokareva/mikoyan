@@ -3,6 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Caveat:400,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap);
 
+
 @import url(https://fonts.googleapis.com/css?family=Bad+Script:400);
 @import url(https://fonts.googleapis.com/css?family=Marck+Script:400);
 @import url(https://fonts.googleapis.com/css?family=Jura:400);
@@ -13,7 +14,6 @@
    font-display: swap;
    src: url('../../../fonts/BKHandyCyr/font.ttf');
 }
-
 
 
 body {
@@ -1112,7 +1112,7 @@ section.lazy-placeholder:after {
   color: #c1c1c1 !important;
 }
 .cid-qTkA127IK8 {
-  background-image: url("../../../assets/images/996eec9a9dc93a8bf801c30c3c3e16fc-640x425.jpg");
+  background-image: url("../../../assets/images/sergeev-7-2000x1282.jpeg");
 }
 .cid-qTkA127IK8 H1 {
   color: #ffffff;
