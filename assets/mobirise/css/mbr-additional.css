@@ -3,7 +3,6 @@
 @import url(https://fonts.googleapis.com/css?family=Caveat:400,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap);
 
-
 @import url(https://fonts.googleapis.com/css?family=Bad+Script:400);
 @import url(https://fonts.googleapis.com/css?family=Marck+Script:400);
 @import url(https://fonts.googleapis.com/css?family=Jura:400);
@@ -19,6 +18,7 @@
    font-display: swap;
    src: url('../../../fonts/Maksikhand/maksikhand.otf.woff');
 }
+
 
 
 body {
@@ -48889,6 +48889,21 @@ section.lazy-placeholder:after {
 }
 .cid-rGTTNN9RpM .mbr-text {
   color: #232323;
+}
+.cid-rZmCzsKTyx {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rZmCzsKTyx .mbr-text,
+.cid-rZmCzsKTyx blockquote {
+  color: #767676;
+}
+.cid-rZmCzsKTyx .mbr-text P {
+  text-align: center;
+}
+.cid-rZmCzsKTyx .mbr-text {
+  text-align: right;
 }
 .cid-rGNqtjE6oH {
   padding-top: 15px;
