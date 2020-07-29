@@ -56,6 +56,13 @@ function init(){
 			caption = $(selector626).siblings('.mbr-gallery-title').text();
 		}
 		
+		// same for -800x1350
+		if(caption == ""){
+			var source = source.replace("-15", "15");
+			var source1350 = "img[src^='" + source + "-800x1350']";
+			caption = $(source1350).siblings('.mbr-gallery-title').text();
+		}
+		
 		
 		// update the caption of current "large" image
 		 this.innerHTML = "<h5> " + caption + "</h5>";
