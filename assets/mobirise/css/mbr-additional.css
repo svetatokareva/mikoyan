@@ -4,6 +4,7 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap);
 
 
+
 @import url(https://fonts.googleapis.com/css?family=Bad+Script:400);
 @import url(https://fonts.googleapis.com/css?family=Marck+Script:400);
 @import url(https://fonts.googleapis.com/css?family=Jura:400);
@@ -19,7 +20,6 @@
    font-display: swap;
    src: url('../../../fonts/Maksikhand/maksikhand.otf.woff');
 }
-
 
 
 body {
@@ -86252,6 +86252,7 @@ section.lazy-placeholder:after {
 .cid-rXdOs9Ttdi .mbr-author-name {
   font-weight: bold;
   color: #232323;
+  text-align: left;
 }
 .cid-rXdOs9Ttdi .media-container-row {
   word-wrap: break-word;
