@@ -9,19 +9,6 @@
 @import url(https://fonts.googleapis.com/css?family=Neucha:400);
 @import url(https://fonts.googleapis.com/css?family=Poiret+One:400);
 
-
-
-@font-face {
-   font-family: 'BKHandyCyr';
-   font-display: swap;
-   src: url('../../../fonts/BKHandyCyr/font.ttf');
-}
-@font-face {
-   font-family: 'maksikhand.otf';
-   font-display: swap;
-   src: url('../../../fonts/Maksikhand/maksikhand.otf.woff');
-}
-
 body {
   font-family: Rubik;
 }
@@ -8542,43 +8529,6 @@ section.lazy-placeholder:after {
   -webkit-justify-content: center;
 }
 .cid-rXedWPV4yO .team-item .item-social .socicon {
-  color: #232323;
-  font-size: 17px;
-}
-.cid-ssaHeZq5sK {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: #ffffff;
-}
-.cid-ssaHeZq5sK .mbr-section-subtitle {
-  color: #767676;
-}
-.cid-ssaHeZq5sK .media-row {
-  display: -webkit-flex;
-  justify-content: center;
-  -webkit-justify-content: center;
-}
-.cid-ssaHeZq5sK .team-item {
-  transition: all .2s;
-  margin-bottom: 2rem;
-}
-.cid-ssaHeZq5sK .team-item .item-image img {
-  width: 100%;
-}
-.cid-ssaHeZq5sK .team-item .item-name p {
-  margin-bottom: 0;
-}
-.cid-ssaHeZq5sK .team-item .item-role p {
-  margin-bottom: 0;
-}
-.cid-ssaHeZq5sK .team-item .item-social {
-  display: -webkit-flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  -webkit-flex-wrap: wrap;
-  -webkit-justify-content: center;
-}
-.cid-ssaHeZq5sK .team-item .item-social .socicon {
   color: #232323;
   font-size: 17px;
 }
