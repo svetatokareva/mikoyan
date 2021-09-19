@@ -56,6 +56,13 @@ function init(){
 			caption = $(selector626).siblings('.mbr-gallery-title').text();
 		}
 		
+		// same for -800x1267
+		if(caption == ""){
+			var source = source.replace("-15", "15");
+			var source1267 = "img[src^='" + source + "-800x1267']";
+			caption = $(source1267).siblings('.mbr-gallery-title').text();
+		}
+		
 		// same for -800x1350
 		if(caption == ""){
 			var source = source.replace("-15", "15");
