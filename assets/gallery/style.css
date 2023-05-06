@@ -37,11 +37,25 @@
 .mbr-gallery .mbr-gallery-item > div:hover .icon-video {
   opacity: 1; }
 
+
+/*
 .mbr-gallery .mbr-gallery-item img {
   width: 100%;
   opacity: 1;
   -webkit-transition: .2s opacity ease-in-out;
   transition: .2s opacity ease-in-out; }
+  */
+  
+  /*1st page galery - same height images*/
+   #gallery3-18 .mbr-gallery-item img {
+  width: 100%;
+  height: 25vw; // my addition
+  opacity: 1;
+  -webkit-transition: .2s opacity ease-in-out;
+  transition: .2s opacity ease-in-out;
+  object-fit: cover;
+  }
+  
 
 .mbr-gallery .mbr-gallery-item > div:hover img {
   opacity: 1; }
