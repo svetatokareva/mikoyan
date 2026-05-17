@@ -20,7 +20,6 @@
    src: url('../../../fonts/Maksikhand/maksikhand.otf.woff');
 }
 
-
 body {
   font-family: Rubik;
 }
@@ -1264,15 +1263,6 @@ section.lazy-placeholder:after {
     justify-content: center;
   }
 }
-.cid-rETV6Jiepv {
-  padding-top: 120px;
-  padding-bottom: 0px;
-  background-color: #ffffff;
-}
-.cid-rETV6Jiepv .mbr-section-subtitle {
-  color: #767676;
-  text-align: left;
-}
 .cid-qTkzRZLJNu .navbar {
   padding: .5rem 0;
   background: #ffffff;
@@ -1661,6 +1651,15 @@ section.lazy-placeholder:after {
 .cid-qTkzRZLJNu .nav-link:hover,
 .cid-qTkzRZLJNu .dropdown-item:hover {
   color: #c1c1c1 !important;
+}
+.cid-rETV6Jiepv {
+  padding-top: 120px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rETV6Jiepv .mbr-section-subtitle {
+  color: #767676;
+  text-align: left;
 }
 .cid-rETXcL0AMX {
   padding-top: 30px;
@@ -8497,40 +8496,40 @@ section.lazy-placeholder:after {
   color: #149dcc;
   text-align: left;
 }
-.cid-rSHNbg9zIH {
+.cid-vjQT9p3Wa2 {
   padding-top: 0px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
-.cid-rSHNbg9zIH .mbr-section-subtitle {
+.cid-vjQT9p3Wa2 .mbr-section-subtitle {
   color: #767676;
 }
-.cid-rSHNbg9zIH .media-row {
+.cid-vjQT9p3Wa2 .media-row {
   display: -webkit-flex;
   justify-content: center;
   -webkit-justify-content: center;
 }
-.cid-rSHNbg9zIH .team-item {
+.cid-vjQT9p3Wa2 .team-item {
   transition: all .2s;
   margin-bottom: 2rem;
 }
-.cid-rSHNbg9zIH .team-item .item-image img {
+.cid-vjQT9p3Wa2 .team-item .item-image img {
   width: 100%;
 }
-.cid-rSHNbg9zIH .team-item .item-name p {
+.cid-vjQT9p3Wa2 .team-item .item-name p {
   margin-bottom: 0;
 }
-.cid-rSHNbg9zIH .team-item .item-role p {
+.cid-vjQT9p3Wa2 .team-item .item-role p {
   margin-bottom: 0;
 }
-.cid-rSHNbg9zIH .team-item .item-social {
+.cid-vjQT9p3Wa2 .team-item .item-social {
   display: -webkit-flex;
   flex-wrap: wrap;
   justify-content: center;
   -webkit-flex-wrap: wrap;
   -webkit-justify-content: center;
 }
-.cid-rSHNbg9zIH .team-item .item-social .socicon {
+.cid-vjQT9p3Wa2 .team-item .item-social .socicon {
   color: #232323;
   font-size: 17px;
 }
